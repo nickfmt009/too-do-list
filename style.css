@@ -1,0 +1,90 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+   background-image: url(./Image/peps.avif);
+   background-repeat:no-repeat;
+   background-position: center;
+   background-size: cover;
+  
+   
+  
+    color: white;
+  }
+
+#new_task_input{
+	width: 300px;
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid white;
+	outline: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: rgba(0,0,0,0.5);
+}
+#new_task_submit{
+	background-color: aquamarine;
+	color: rgb(8, 43, 56);
+	cursor: pointer;
+	width: 140px;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+#new_task_submit:hover{
+	color: #000;
+	background-color: whitesmoke;
+}
+::placeholder{
+	font-size: 25px;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.5);
+	color: rgb(86, 86, 146);
+	text-align: center;
+}
+header, #text_task{
+	padding-left: 500px;
+	background-color: rgba(0,0,0,0.5);
+}button{
+	background-color: rgb(163, 224, 20);
+	color: rgb(17, 171, 226);
+	cursor: pointer;
+	width: 140px;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 10px;
+
+}
+button:hover{
+	background-color: red;
+	color: blue;
+}
+input{
+	width: 300px;
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid white;
+	outline: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+}
+span{
+	color: blue;
+}
+#op{
+	color: red;
+}
