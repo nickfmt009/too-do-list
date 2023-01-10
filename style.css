@@ -48,8 +48,10 @@ body{
 	text-align: center;
 }
 header, #text_task{
-	padding-left: 500px;
+	display:flex;
+	place-item:center;
 	background-color: rgba(0,0,0,0.5);
+	margin-button:100px;
 }button{
 	background-color: rgb(163, 224, 20);
 	color: rgb(17, 171, 226);
